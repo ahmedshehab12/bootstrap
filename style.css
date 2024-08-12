@@ -1,0 +1,23 @@
+.navbar {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: var(--light-color);
+  }
+  .cards .single-card {
+    margin: 20px 10px;
+    background-color: var(--light-color);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .cards .single-card .card-title,
+  .cards .single-card .card-text{
+    font-weight: 700;
+  }
+  
+  .cards .single-card .btn{
+    background-color: var(--secondary-color);
+    color: white;
+    font-weight: 700;
+  }
